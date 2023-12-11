@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+#pageContainer {
+    width: 100%;
+    height: auto;
+    background-image: url("../../assets/background-ruido.jpg");
+}
+
+#formTitleContainer {
+    width: 60%;
+}
+
+#tituloForm {
+    width: 100%;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#lineForm {
+    width: 80px;
+    height: 3px;
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 50px 0;
+}
+
+label {
+    text-align: left;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+    border-style: none;
+}
+
+textarea {
+    width: 300px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+#sendButton {
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000;
+    align-self: center;
+    border-style: none;
+    border-radius: 20px;
+    margin: 20px 0;
+    transition: 0.5s;
+}
+
+#sendButton:hover {
+    transform: scale(1.06);
+}
+
+@media (max-width: 768px) {
+    #formTitleContainer {
+        width: 80%;
+    }
+
+    #tituloForm {
+        font-size: 28px;
+    }
+}

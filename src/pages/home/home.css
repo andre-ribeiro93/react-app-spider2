@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+.trailer {
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}

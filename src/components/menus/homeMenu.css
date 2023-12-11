@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+#navHome {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ulHome {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.liHome {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.liHome:hover {
+    font-weight: 400;
+    transform: scale(1.1);
+
+}
+
+@media (max-width: 768px) {
+    #ulHome {
+        width: 80%;
+    }
+
+    .liHome {
+        font-size: 13px;
+    }
+}

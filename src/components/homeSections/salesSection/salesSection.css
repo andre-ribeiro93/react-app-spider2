@@ -1,0 +1,88 @@
+#salesContainer {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(26, 32, 51);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.salesContent {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.salesContent:hover {
+    transform: scale(1.05);
+}
+
+#gameCard1 {
+    background-image: url('../../../assets/gameCards/standardEdition.jpg');
+}
+
+#gameCard2 {
+    background-image: url('../../../assets/gameCards/deluxEdition.avif');
+}
+
+#gameCard1, #gameCard2 {
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+}
+
+.gameText {
+    text-align: center;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.callToAction {
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.gameDescription {
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+    font-size: 13px;
+    padding: 15px 0;
+}
+
+.ps5Logo {
+    width: 100px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .salesContent {
+        flex: 1;
+        flex-direction: column;
+    }
+
+    #gameCard1, #gameCard2 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .gameText {
+        padding-left: 0;
+    }
+
+    .callToAction {
+        padding-top: 10px;
+        font-size: 15px;
+    }
+
+    .gameDescription {
+        font-size: 10px;
+    }
+
+    .ps5Logo {
+        width: 80px;
+        height: auto;
+    }
+}

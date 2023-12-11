@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+#viewMore {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+    background-color: #000;
+    transition: 0.5s;
+}
+
+#viewMore:hover {
+    transform: scale(1.05);    
+}

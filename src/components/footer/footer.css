@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+#emptyBar {
+    width: 100%;
+    height: 50px;    
+}
+
+#producersContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    background-image: url("../../assets/background-ruido.jpg");
+}
+
+#marvelContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logoMarvel {
+    width: 130px;
+    height: auto;
+}
+
+#oficialMarvel {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#logoInsomniac {
+    width: 200px;
+    height: auto;
+    margin-right: 25px;
+}
+
+#logoPSStudio {
+    width: 100px;
+    height: auto;
+}
+
+#developerContainer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+#developer {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    #producersContainer {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    #logoInsomniac {
+        margin-right: 0;
+    }
+}

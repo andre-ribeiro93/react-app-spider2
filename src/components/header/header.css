@@ -1,0 +1,88 @@
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+#headerMenu {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #b90506;
+    padding: 5px;
+}
+
+#iconContainer {
+    display: flex;
+    margin-left: 30px;
+}
+
+
+#logo {
+    width: 90px;
+    height: auto;
+    padding: 2px 0;
+    height: auto;
+}
+
+#logoGame {
+    cursor: pointer;
+    width: 150px;
+    height: auto;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+#logoGame:hover {
+    transform: scale(1.05);
+}
+
+
+#socialMediaContainer {
+    display: flex;
+    margin-right: 30px;
+}
+
+.socialIcon {
+    cursor: pointer;
+    width: 20px;
+    height: auto;
+    color: #fff;
+    padding: 2px 10px;
+    transition: 0.5s;
+}
+
+.socialIcon:hover {
+    transform: scale(1.2);
+}
+
+
+@media (max-width: 768px) {
+
+    #iconContainer {
+        margin-left: 10px;
+    }
+
+    #logo {
+        width: 60px;
+    }
+
+    #logoGame {
+        width: 110px;
+        margin-right: 10px;
+    }
+
+    #socialMediaContainer {
+        margin-right: 0;
+    }
+
+    .socialIcon {
+        width: 18px;
+    }
+}

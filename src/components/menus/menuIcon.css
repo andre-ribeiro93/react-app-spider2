@@ -1,0 +1,22 @@
+#menuIcon {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shadowEffect {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: none;
+    transition: 0.5s;
+}
+
+#shadowEffect:hover {
+    background-color: rgba(255, 255, 255, 0.4)
+    
+}

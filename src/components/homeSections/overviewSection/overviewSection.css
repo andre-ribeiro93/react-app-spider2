@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+#overviewContainer {
+    width: 100%;
+    height: auto;
+    background-image: url("../../../assets/background-ruido.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+#textContainer {
+    width: 70%;
+    padding: 50px 0;
+}
+
+#overviewTitle {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.line {
+    width: 80px;
+    height: 3px;
+    margin: 15px 0;
+    background-color: #fff;
+}
+
+.textBody {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1rem; 
+    font-weight: 300;
+    color: #fff;
+}
+
+.overviewSubtitle {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 400;
+    font-size: 28px;
+    padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+    #overviewTitle {
+        font-size: 30px;
+    }
+
+    .overviewSubtitle {
+        font-size: 25px;
+    }
+}

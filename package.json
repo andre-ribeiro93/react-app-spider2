@@ -18,6 +18,7 @@
   },
   "homepage": "https://andre-ribeiro93.github.io/react-app-spider2",
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -8,7 +8,7 @@ import MessageSent from './pages/messageSent/messageSent';
 function App() {
 
   return ( 
-    <BrowserRouter>
+    <BrowserRouter basename='/react-app-spider2'>
       <Routes>
 
         <Route path='/' element={<Home />} />

@@ -1,6 +1,7 @@
 # react-app-spider2
 
 Este projeto teve como objetivo criar uma aplicação utilizando React, sendo a mesma totalmente funcional, contendo rotas para compra de produtos, simulação de envio de formulário, acesso a imagens, vídeos e cards informativos.
+<br>
  
 ## Tecnologias empregadas
 
@@ -17,12 +18,12 @@ Este projeto teve como objetivo criar uma aplicação utilizando React, sendo a 
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 
 </div>
-
- 
+<br>
 
 ## Link
 
 * URL aplication: https://andre-ribeiro93.github.io/react-app-spider2/
+<br>
 
 ## Pages
  
@@ -41,7 +42,7 @@ Está página possui cards interativos contendo informações dos principais per
 Simulação de formulário de contato, contendo validações em `JavaScript` e retorno de confirmativo para mensagem enviada.
 <br>
 <br>
-### Considerações
+## Considerações
  
 Este prrojeto foi desenvolvido como um desafio proposto do curso 'Profissão Programador' o qual tem como foco a formação de desenvolvedores full-stack, tendo aulas ministradas pelo professor Paulo Borges.
  
@@ -51,6 +52,7 @@ As informações textuais contidas na aplicação foram extraídas das seguintes
 
 * [Spider-Man 2: conheça todos os vilões do novo jogo](https://www.tecmundo.com.br/voxel/272936-spider-man-2-conheca-viloes-novo-jogo.htm)
 
+<br>
 As imagens e vídeo contidos no projeto foram extraídas de fontes oficiais sendo o direito das mesmas reservado as seguintes instituições:
 
 * Insomniac Games, Inc.
@@ -59,9 +61,12 @@ As imagens e vídeo contidos no projeto foram extraídas de fontes oficiais send
 
 * Sony Interactive Entertainment
 
+<br>
 O conteúdo textual presente na seção de VISÃO GERAL foi extraído do seguinte site, assim como as imagens presentes na seção IMAGENS:
 
 * https://insomniac.games/game/marvels-spider-man-2/
+
+<br>
 
 ## Autor
 

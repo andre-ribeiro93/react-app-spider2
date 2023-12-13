@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-app-spider2/static/css/main.1a1df5bb.css",
+    "main.css": "/react-app-spider2/static/css/main.73f60be3.css",
     "main.js": "/react-app-spider2/static/js/main.3ff78af3.js",
     "static/media/Trailer.mp4": "/react-app-spider2/static/media/Trailer.1b79747dd7b284240635.mp4",
     "static/media/(10).jpg": "/react-app-spider2/static/media/(10).58827b96459e6b5c03ff.jpg",
@@ -50,11 +50,11 @@
     "static/media/(18)aaron-davis.jpg": "/react-app-spider2/static/media/(18)aaron-davis.f05f80694c40d1ab12ab.jpg",
     "static/media/logo-spider-branca.png": "/react-app-spider2/static/media/logo-spider-branca.5643af953b1b43495b2e.png",
     "index.html": "/react-app-spider2/index.html",
-    "main.1a1df5bb.css.map": "/react-app-spider2/static/css/main.1a1df5bb.css.map",
+    "main.73f60be3.css.map": "/react-app-spider2/static/css/main.73f60be3.css.map",
     "main.3ff78af3.js.map": "/react-app-spider2/static/js/main.3ff78af3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a1df5bb.css",
+    "static/css/main.73f60be3.css",
     "static/js/main.3ff78af3.js"
   ]
 }

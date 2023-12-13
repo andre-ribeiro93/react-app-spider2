@@ -1,8 +1,81 @@
-# Getting Started with Create React App
+# react-app-spider2
+
+Este projeto teve como objetivo criar uma aplicação utilizando React, sendo a mesma totalmente funcional, contendo rotas para compra de produtos, simulação de envio de formulário, acesso a imagens, vídeos e cards informativos.
+ 
+## Tecnologias empregadas
+
+<div style="display: inline_block"><br>
+
+  <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+
+  <img align="center" alt="CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+
+  <img align="center" alt="JavaScript" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
+</div>
+
+ 
+
+## Link
+
+* URL aplication: https://andre-ribeiro93.github.io/react-app-spider2/
+
+## Pages
+ 
+### `Home`
+
+Apresenta recursos de mídia (vídeo e imagens que podem ser ampliadas), ícones de compra contendo rotas de redirecionamento para a aquisição do produto, além de texto informativo a respeito do item em questão.
+<br>
+<br>
+### `Characters`
+
+Está página possui cards interativos contendo informações dos principais personagens.
+<br>
+<br>
+### `Contato` 
+
+Simulação de formulário de contato, contendo validações em `JavaScript` e retorno de confirmativo para mensagem enviada.
+<br>
+<br>
+### Considerações
+ 
+Este prrojeto foi desenvolvido como um desafio proposto do curso 'Profissão Programador' o qual tem como foco a formação de desenvolvedores full-stack, tendo aulas ministradas pelo professor Paulo Borges.
+ 
+As informações textuais contidas na aplicação foram extraídas das seguintes fontes:
+
+* [Spider-Man 2: conheça o elenco de personagens do game](https://www.tecmundo.com.br/voxel/272894-spider-man-2-conheca-elenco-personagens-game.htm)
+
+* [Spider-Man 2: conheça todos os vilões do novo jogo](https://www.tecmundo.com.br/voxel/272936-spider-man-2-conheca-viloes-novo-jogo.htm)
+
+As imagens e vídeo contidos no projeto foram extraídas de fontes oficiais sendo o direito das mesmas reservado as seguintes instituições:
+
+* Insomniac Games, Inc.
+
+* Marvel Entertainment, Inc.
+
+* Sony Interactive Entertainment
+
+O conteúdo textual presente na seção de VISÃO GERAL foi extraído do seguinte site, assim como as imagens presentes na seção IMAGENS:
+
+* https://insomniac.games/game/marvels-spider-man-2/
+
+## Autor
+
+[André Ribeiro](https://www.linkedin.com/in/andr%C3%A9-ribeiro-a22139237)
+<br>
+<br>
+<br>
+## Tecnical informations about React App
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 

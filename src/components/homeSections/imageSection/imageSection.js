@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import "./imageSection.css";
 import { GeneralContext } from "../../../contexts/generalContexts";
 import ViewMoreButton from "../../button/viewMore";
@@ -40,14 +40,6 @@ function ImageSection () {
         setIsModalOpen (false);
         setSelectedImage (null);
     }
-
-    useEffect (() => {
-        return () => {
-            if (isModalOpen) {
-                closeModal ();
-            }
-        }
-    });
 
     return (
         <div id="imageContainer">

@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import "./charactersSection.css"
 import { GeneralContext } from "../../contexts/generalContexts";
 
@@ -38,14 +38,6 @@ function CharactersSection () {
         setSelectedImage (null);
         setshowDescription ('');
     }
-
-    useEffect (() => {
-        return () => {
-            if (isModalOpen) {
-                closeModal ();
-            }
-        }
-    });
 
     return (
         <div id="pageContainer">
